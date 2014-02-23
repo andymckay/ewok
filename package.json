@@ -1,0 +1,17 @@
+{
+  "name": "ewok",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "engines": {
+    "node": ">= 0.10.x",
+    "npm": ">= 1.1.x"
+  },
+  "dependencies": {
+    "github": "0.1.14",
+    "irc": "0.3.x",
+    "express": "3.4.8"
+  }
+}
