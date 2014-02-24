@@ -16,7 +16,10 @@ module.exports = {
     'channels': {
         '#amo': [],
         '#marketplace': [],
-        '#payments': [],
+        '#payments': [
+            'mozilla/solitude', 'mozilla/webpay', 'mozilla/spartacus',
+            'mozilla/curling', 'mozilla/zippy'
+        ],
         '#marketplace-api': [
             'mozilla/zamboni'
         ],
@@ -30,7 +33,7 @@ module.exports = {
     // in the body of a pull request (e.g. in an ask for review).
     //
     // Format:
-    // '@github_username': 'irc_handle' 
+    // '@github_username': 'irc_handle'
 
     'users': {
         '@chuckharmston': 'chuck'
